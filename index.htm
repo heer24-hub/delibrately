@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>first webpage</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+       <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--header-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">heeryog!</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About!</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Academy!</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Studio!
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-disabled="true">Yoga Retreats!</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-disabled="true">At home with heer!</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-disabled="true">Contact Us!</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+ 
+        <h3 class="head">Welcome To The heeryog  Academy by (Heera Tank)</h3>
+        <!-- main content-->
+        <content>    
+            <div class="container"> 
+                <h1 class="head">COURSES<hr></h1>   
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://www.agniyogaindia.com/wp-content/uploads/2021/11/200-hour-yoga-rishikesh.jpg" style="height: 200px; background-repeat: no-repeat;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">200 Hour Teacher Training Course</h5>
+                              <p class="card-text">Become a certified yoga teacher and deepen your practice and knowledge with Yoga Acharya Ira Trivedi</p>
+                              <button type="button" class="btn btn-success">Click More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://img-c.udemycdn.com/course/750x422/2709124_745b_3.jpg" style="height: 180px; background-repeat: no-repeat;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Kids Yoga Teacher Training Course</h5>
+                              <p class="card-text">Become a certified kids yoga teacher and deepen your practice and knowledge with Yoga Acharya Ira Trivedi & Ajachi Anthwal</p>
+                              <button type="button" class="btn btn-success">Click More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://samadhiyogaashram.com/images/sya-yin-yttc-course-3.webp" style="height: 200px; background-repeat: no-repeat;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Yin Yoga Teacher Training Course</h5>
+                              <p class="card-text">Become a certified Yin Yoga Teacher and deepen your practice and knowledge with Yin Yoga Acharya Ira Trivedi</p>
+                               <button type="button" class="btn btn-success">Click More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://www.arhantayoga.org/wp-content/uploads/2024/12/Become-a-Certified-Breathwork-Pranayama-Teacher.jpg" style="height: 200px; background-repeat: no-repeat;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Pranayama Coach Course</h5>
+                              <p class="card-text">Become a certified pranayama coach and learn the essential principles, practices, and benefits of Pranayama.</p>
+                              <button type="button" class="btn btn-success">Click More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container mt-5">
+                <h2 class="text-center">Contact Us</h2>
+        
+                <form action="/submit" method="post">
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullname" name="fullname" required>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="how-heard" class="form-label">How did you hear about us?</label>
+                        <select class="form-select" id="how-heard" name="how_heard">
+                            <option value="search">Instagram</option>
+                            <option value="social-media">Facebbok</option>
+                            <option value="referral">Twitter</option>
+                            <option value="other">Website</option>
+                            <option value="other">Workshop</option>
+                            <option value="other">Refrence</option>
+                        </select>
+                    </div>
+
+                            
+                    <div class="mb-3">
+                        <label for="how-heard" class="form-label">I am Interested In:</label>
+                        <select class="form-select" id="how-heard" name="how_heard">
+                            <option value="search">Retreats</option>
+                            <option value="social-media">Vin Yoga TTC</option>
+                            <option value="referral">Pranayama Yoga</option>
+                            <option value="other">Kids Yoga TTC</option>
+                        </select>
+                    </div>
+
+        
+                    <fieldset class="mb-3">
+                        <legend class="form-label">I am Interested In:</legend>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="product" name="interest" value="Product Inquiry">
+                            <label class="form-check-label" for="product">Product Inquiry</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="support" name="interest" value="Customer Support">
+                            <label class="form-check-label" for="support">Customer Support</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="info" name="interest" value="General Information">
+                            <label class="form-check-label" for="info">General Information</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="other-interest" name="interest" value="Other">
+                            <label class="form-check-label" for="other-interest">Other</label>
+                        </div>
+                    </fieldset>
+        
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Write a message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+        
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </content>
+
+        <!-- footer -->
+        <footer class="bg-secondary text-dark py-5 mt-5" style="box-shadow: 5px 10px #888888;">
+            <div class="container">
+                <div class="row">
+                    <!-- Academy Section -->
+                    <div class="col-md-3">
+                        <h5>Academy</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark text-decoration-none">200 Hour TTC</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Yin Yoga TTC</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Pranayama Coach Course</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Kids Yoga TTC</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">At Home with heeryog</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Retreats Section -->
+                    <div class="col-md-3">
+                        <h5>Retreats</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark  text-decoration-none">Bali Retreat</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Ladakh Retreat</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Kerala Retreat</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Yoga Retreats</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Retreat T&C</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Social Media Links -->
+                    <div class="col-md-3">
+                        <h5>Follow Us</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark  text-decoration-none">Whatsapp</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Instagram</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">YouTube</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Facebook</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Twitter</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">LinkedIn</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Useful Links Section -->
+                    <div class="col-md-3">
+                        <h5>Useful Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark  text-decoration-none">Homepage</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">About</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">heeryog Space</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Blog</a></li>
+                            <li><a href="#" class="text-dark  text-decoration-none">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Contact Information Section -->
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h5>Contact</h5>
+                        <p>Address: Beach Queen Apartments, A Wing, Apartment 601, Versova, Mumbai, Maharashtra 400061.</p>
+                        <p>Email: <a href="mailto:admin@yoglove.in" class="text-dark">admin@heeryog.in</a></p>
+                        <p>Phone: <a href="tel:+919920896069" class="text-dark">+91-7742529726</a></p>
+                    </div>
+                </div>
+    
+                <!-- Copyright & Terms Section -->
+                <div class="row mt-4 text-center">
+                    <div class="col-12">
+                        <p>&copy; 2024 heeryog and the Namami Yoga Foundation | 
+                            <a href="privacy-policy.html" class="text-dark text-decoration-none">Privacy Policy</a> | 
+                            <a href="terms.html" class="text-dark text-decoration-none">Terms and Conditions</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
