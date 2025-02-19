@@ -4,3 +4,14 @@
     padding: 30px;
     text-align: center;
 }
+
+.card
+{
+    height: 500px;
+}
+
+.card-img-top, img
+{
+    width: 100px;
+    height: 200px;
+}
